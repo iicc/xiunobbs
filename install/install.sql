@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS `bbs_user`;
 CREATE TABLE `bbs_user` (
   uid int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户编号',
   gid smallint(6) unsigned NOT NULL DEFAULT '0' COMMENT '用户组编号',	# 如果要屏蔽，调整用户组即可
-  email char(40) NOT NULL DEFAULT '' COMMENT '邮箱',
+  email char(128) NOT NULL DEFAULT '' COMMENT '邮箱',
   username char(32) NOT NULL DEFAULT '' COMMENT '用户名',	# 不可以重复
   realname char(16) NOT NULL DEFAULT '' COMMENT '用户名',	# 真实姓名，天朝预留
   idnumber char(19) NOT NULL DEFAULT '' COMMENT '用户名',	# 真实身份证号码，天朝预留

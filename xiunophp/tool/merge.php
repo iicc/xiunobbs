@@ -1,5 +1,5 @@
 <?php
-// ºÏ²¢ XiunoPHP
+// XiunoPHP
 
 function_exists('set_magic_quotes_runtime') AND set_magic_quotes_runtime(0);
 $dir = '../';

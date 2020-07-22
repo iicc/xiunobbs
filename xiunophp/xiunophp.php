@@ -128,5 +128,3 @@ unset($conf['cache']['mysql']['db']); // 用完清除，防止保存到配置文
 
 $_SERVER['db'] = $db;
 $_SERVER['cache'] = $cache;
-
-?>
