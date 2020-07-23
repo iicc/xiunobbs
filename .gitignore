@@ -1,8 +1,3 @@
-conf/*.php
-upload/attach/*
-upload/avatar/*
-upload/forum/*
-upload/tmp/*
 */.gitkeep
 umeditor-dev
 ueditor-dev
@@ -12,5 +7,7 @@ plugin/*/*.zip
 plugin/*/*.json
 view/img/logo-2.png
 view/bootstrap/node_modules
+
 .vscode
 .idea
+tmp/*
